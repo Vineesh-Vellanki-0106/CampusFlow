@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8001";
+const API =
+  import.meta.env.VITE_API_URL ||
+  "http://127.0.0.1:8001";
 
 function App() {
   const [campus, setCampus] = useState(null);
