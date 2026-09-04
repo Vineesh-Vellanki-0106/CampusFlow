@@ -1,0 +1,28 @@
+{
+  "subjects": {
+    "DBMS": {
+      "priority": 3,
+      "reason": "Exam approaching"
+    },
+    "Machine Learning": {
+      "priority": 5,
+      "reason": "Syllabus behind schedule"
+    },
+    "Operating Systems": {
+      "priority": 4,
+      "reason": "Multiple classes already missed"
+    },
+    "Computer Networks": {
+      "priority": 2,
+      "reason": "On schedule"
+    },
+    "Artificial Intelligence": {
+      "priority": 5,
+      "reason": "Exam approaching and syllabus behind schedule"
+    },
+    "Software Engineering": {
+      "priority": 1,
+      "reason": "On schedule"
+    }
+  }
+}

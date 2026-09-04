@@ -1,0 +1,20 @@
+{
+  "active_disruptions": [
+    {
+      "id": "D1",
+      "type": "college_suspension",
+      "day": "Wednesday",
+      "reason": "Unexpected holiday",
+      "status": "active"
+    },
+    {
+      "id": "D2",
+      "type": "faculty_unavailable",
+      "faculty": "Dr. Sharma",
+      "day": "Tuesday",
+      "slot": "10:00-11:00",
+      "reason": "Faculty unavailable",
+      "status": "active"
+    }
+  ]
+}
