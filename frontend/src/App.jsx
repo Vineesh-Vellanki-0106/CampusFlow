@@ -3,7 +3,7 @@ import "./App.css";
 
 const API =
   import.meta.env.VITE_API_URL ||
-  "https://campusflow-9teg.onrender.com";
+  "http://127.0.0.1:8001";
 
 function App() {
   const [campus, setCampus] = useState(null);
