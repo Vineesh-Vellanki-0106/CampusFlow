@@ -1,5 +1,6 @@
 import json
 from fastapi import FastAPI
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 from agent_core import run_agent
@@ -56,6 +57,20 @@ def root():
 def timetable():
 
     return get_timetable()
+class TimetableUpdate(BaseModel):
+    classes: list[dict]
+
+
+@app.post("/timetable")
+def update_timetable(data: TimetableUpdate):
+    with open("data/timetable.json", "w") as file:
+        json.dump({"classes": data.classes}, file, indent=2)
+
+    return {
+        "status": "updated",
+        "message": "Timetable updated successfully.",
+        "timetable": {"classes": data.classes}
+    }
 
 
 # ==========================================

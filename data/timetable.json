@@ -6,7 +6,7 @@
       "subject": "DBMS",
       "faculty": "Dr. Rao",
       "room": "A-201",
-      "day": "Monday",
+      "day": "Wednesday",
       "slot": "09:00-10:00"
     },
     {
@@ -15,8 +15,8 @@
       "subject": "Machine Learning",
       "faculty": "Dr. Sharma",
       "room": "A-202",
-      "day": "Monday",
-      "slot": "11:15-12:15"
+      "day": "Wednesday",
+      "slot": "10:00-11:00"
     },
     {
       "id": "C3",
@@ -24,7 +24,7 @@
       "subject": "Operating Systems",
       "faculty": "Dr. Kumar",
       "room": "A-201",
-      "day": "Thursday",
+      "day": "Wednesday",
       "slot": "11:15-12:15"
     },
     {
@@ -33,7 +33,7 @@
       "subject": "Computer Networks",
       "faculty": "Dr. Mehta",
       "room": "A-202",
-      "day": "Thursday",
+      "day": "Wednesday",
       "slot": "12:15-13:15"
     },
     {
@@ -42,7 +42,7 @@
       "subject": "Artificial Intelligence",
       "faculty": "Dr. Sharma",
       "room": "A-201",
-      "day": "Monday",
+      "day": "Wednesday",
       "slot": "14:00-15:00"
     },
     {
@@ -51,7 +51,7 @@
       "subject": "Software Engineering",
       "faculty": "Dr. Rao",
       "room": "A-202",
-      "day": "Monday",
+      "day": "Wednesday",
       "slot": "15:00-16:00"
     }
   ]
